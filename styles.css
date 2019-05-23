@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    min-width: 625px;
+}
+
+body {
+    background: #ffffd7;
+    font: 13.34px helvetica, arial, clean, sans-serif;
+    *font-size: small;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p {
+    margin: 1em 0;
+}
+
+a { color: #00a; }
+/* a:hover { color: black; } */
+/* a:visited {} */
+
+/* a */
+/* a:visited { ... } */
+/* a:focus { ... } */
+/* a:hover { ... } */
+/* a:active { ... } */
+
+.site {
+    font-size: 110%;
+    text-align: justify;
+    width: 42em;
+    margin: 3em auto 2em auto;
+    line-height: 1.5em;
+}
+
+/* 
+    mine 
+*/
+
+.sof {
+    position: relative;
+    height: auto;
+}
+
+.banner {
+    height: 125px;
+}
+
+.vr {
+    width: 3px;
+    background-color: #db444a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 104px;
+}
+
+hr {
+    margin-bottom: 20px;
+    border: 0 none;
+    background: none;
+    height: 0;
+}
+
+.hr-solid {
+    border-top: 2px solid #376bcb;
+}
+
+.hr-dashed {
+    border-top: 2px dashed #376bcb;
+}
+
+.banner-top-space {
+    height: 30px;
+}
+
+.banner-img {
+    position: absolute;
+    top: 5px;
+    /* padding-left: 192px; */
+    padding-left: 150px;
+}
+
+
+span {
+    color: #db444a;
+    /* color: #aaa; */
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+}
+
+
+
+.stack-of-books {
+    position: relative;
+    width: 625px;
+    line-height: 1.9em;
+}
+
+.books {
+    position: absolute;
+    left: 0;
+    height: 59.8px;
+    width: 625px;
+}
+
+
+/*
+ Full-sized block
+*/
+
+.level-row-perspective {
+    height: 59.8px;
+}
+
+.above {
+    background: #ffffd7;
+    height: 28.8px;
+    transform: skew(-45.00deg) translate(15.4px, 0%);
+    width: 583.47px;
+    border: 1px solid;
+}
+
+.spine {
+    background:  #ffffd7;
+    margin-right: 28.8px;
+    height: 27px;
+    width: 583.47px;
+    border: 1px solid;
+}
+
+.pages {
+    background: #ffffd7;
+    width: 28.8px;
+    height: 27px;
+    margin-left: 585.47px;
+    transform: skew(0deg, -45.00deg) translate(0px, -44.4px);
+    border: 1px solid;
+}  
