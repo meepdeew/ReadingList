@@ -9,7 +9,8 @@ html, body {
 }
 
 body {
-    background: #ffffd7;
+    /* background: #ffffd7; */
+    background: white;
     font: 13.34px helvetica, arial, clean, sans-serif;
     *font-size: small;
     text-align: center;
@@ -44,15 +45,6 @@ a { color: #00a; }
     width: 42em;
     margin: 3em auto 2em auto;
     line-height: 1.5em;
-}
-
-/* 
-    mine 
-*/
-
-.sof {
-    position: relative;
-    height: auto;
 }
 
 .banner {
@@ -100,6 +92,9 @@ span {
     /* color: #aaa; */
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
+    margin-left: 10px;
+    /* float: right; */
+    /* margin-right: 10px; */
 }
 
 
@@ -143,10 +138,29 @@ span {
 }
 
 .pages {
-    background: #ffffd7;
+    background: white;
     width: 28.8px;
     height: 27px;
     margin-left: 585.47px;
     transform: skew(0deg, -45.00deg) translate(0px, -44.4px);
-    border: 1px solid;
+    /* border: 1px solid; */
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid white;
 }  
+
+.inner-pages {
+    position: absolute;
+    background: #ffffd7;
+    width: 26.8px;
+    height: 27px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+a {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
