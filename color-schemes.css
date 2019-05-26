@@ -1,43 +1,41 @@
 
-.cover-blood-sweat-and-pixels {
-    background: #3882b2;
-}
-.title-blood-sweat-and-pixels {
-    color: #e9c747;
-}
+
+.cover-blood-sweat-and-pixels { background: #3882b2; }
+.title-blood-sweat-and-pixels { color: #e9c747; }
 .author-blood-sweat-and-pixels {
-    color: #e7404e;
+    color: #941B0C;
+    /* color: #650D1B; */
 }
 
-.cover-tribe {
-    background: #54566a;
-}
-.title-tribe {
-    color: #d2d84f;
-}
-.author-tribe {
-    color: white;
-}
+
+.cover-tribe { background: #54566a; }
+.title-tribe { color: #d2d84f; }
+.author-tribe { color: white; }
+
 
 .cover-brain-on-fire {
     background: #f8d04c;
 }
 .title-brain-on-fire {
-    color: black;
+    color: #5c5b60;
 }
 .author-brain-on-fire {
-    color: #b9442a;
+    color: #e93f36;
+    /* color: #b9442a; */
 }
 
+
 .cover-infinite {
-    background: #f3d24b;
+    background: #E8B10D;
+    /* background: #f3d24b; */
 }
 .title-infinite {
-    color: black;
+    color: #000000;
 }
 .author-infinite {
-    color: #b9442a;
+    color: #912923;
 }
+
 
 .cover-the-satyricon {
     background: #979aa4;
@@ -49,11 +47,15 @@
     color: white;
 }
 
+
 .cover-no-surrender {
     background: #b33631;
 }
 .title-no-surrender {
-    color: #193060;
+    color: #122347;
+    /* color: #193060; */
+    /* color: #1F3B77; */
+    /* color: #234489; */
 }
 .author-no-surrender {
     color: #fdf6c7;
@@ -189,6 +191,216 @@
     color: black;
 }
 
+
+.cover-lathe-of-heaven {
+    background: #fcfdeb;
+}
+.title-lathe-of-heaven {
+    /* color: #23557a; */
+    color: #0086e5;
+}
+.author-lathe-of-heaven {
+    color: #000000;
+}
+
+
+
+.cover-case-against-education {
+    background: #e3dbc8;
+}
+.title-case-against-education {
+    color: #000000;
+}
+.author-case-against-education {
+    color: #000000;
+}
+
+
+
+.cover-flowers-for-algernon {
+    background: #bcdae5;
+}
+.title-flowers-for-algernon {
+    color: #ba3d27;
+}
+.author-flowers-for-algernon {
+    color: #f99734;
+}
+
+
+.cover-os-xinu {
+    background: #5c0201;
+}
+.title-os-xinu {
+    color: #f0a07d;
+}
+.author-os-xinu {
+    color: #ffffff;
+}
+
+
+.cover-blood-meridian {
+    background: #6f2429;
+}
+.title-blood-meridian {
+    color: #ffffff;
+}
+.author-blood-meridian {
+    color: #d83a34;
+}
+
+
+.cover-all-systems-red {
+    /* background: #607073; */
+    background: #3d4846;
+    /* background: #3e4c4b; */
+}
+.title-all-systems-red {
+    /* color: #b05739; */
+    /* color: #922a23; */
+    color: #da4333;
+}
+.author-all-systems-red {
+    color: #758177;
+    /* color: #000000; */
+}
+
+
+.cover-interview-vampire {
+    background: black;
+}
+.title-interview-vampire {
+    color: white;
+}
+.author-interview-vampire {
+    color: darkred;
+}
+
+
+.cover-gentle {
+    background: #7e333a;
+}
+.title-gentle {
+    color: white;
+}
+.author-gentle {
+    color: #ffcfaf;
+}
+
+
+.cover-evicted {
+    background: #d6d2c7;
+}
+.title-evicted {
+    color: black;
+}
+.author-evicted {
+    color: black;
+}
+
+
+.cover-pimp {
+    background: #987028;
+}
+.title-pimp {
+    color: #87297f;
+}
+.author-pimp {
+    color: black;
+}
+
+.cover-have-faces {
+    background: #02b0b7;
+}
+.title-have-faces {
+    /* color: #e95456; */
+    color: white;
+}
+.author-have-faces {
+    color: black;
+}
+
+.cover-up-from-slavery {
+    background: #602e2d;
+}
+.title-up-from-slavery {
+    color: #bfc2da;
+}
+.author-up-from-slavery {
+    color: #db8f15;
+}
+
+
+.cover-three-body-problem {
+    background: #2e5380;
+}
+.title-three-body-problem {
+    color: #d4e04e;
+}
+.author-three-body-problem {
+    color: white;
+}
+
+.cover-lolita {
+    background: #859362;
+}
+.title-lolita {
+    color: black;
+}
+.author-lolita {
+    color: black;
+}
+
+.cover-god {
+    background: #fdfbe6;
+}
+.title-god {
+    color: #af883b;
+}
+.author-god {
+    color: black;
+}
+
+.cover-ready-player-one {
+    background: #ee1d33;
+}
+.title-ready-player-one {
+    color: #ffcd46;
+}
+.author-ready-player-one {
+    color: white;
+}
+
+.cover-call-of-the-wild {
+    background: #69bad5;
+}
+.title-call-of-the-wild {
+    color: #4f5c88;
+}
+.author-call-of-the-wild {
+    color: #d7dbdc;
+}
+
+.cover-never-let-me-go {
+    background: #;
+}
+.title-never-let-me-go {
+    color: #;
+}
+.author-never-let-me-go {
+    color: #;
+}
+
+.cover-attempting-normal {
+    background: #;
+}
+.title-attempting-normal {
+    color: #;
+}
+.author-attempting-normal {
+    color: #;
+}
+
 .cover- {
     background: #;
 }
@@ -198,3 +410,51 @@
 .author- {
     color: #;
 }
+
+.cover- {
+    background: #;
+}
+.title- {
+    color: #;
+}
+.author- {
+    color: #;
+}
+
+.cover- {
+    background: #;
+}
+.title- {
+    color: #;
+}
+.author- {
+    color: #;
+}
+
+.cover- {
+    background: #;
+}
+.title- {
+    color: #;
+}
+.author- {
+    color: #;
+}
+
+.cover- {
+    background: #;
+}
+.title- {
+    color: #;
+}
+.author- {
+    color: #;
+}
+
+
+.neuromancer-bg-1 {background: #f05b7b;}
+.neuromancer-bg-2 {background: #faed53;}
+.neuromancer-bg-3 {background: #3f3250;}
+.neuromancer-clr-1 {color: #f05b7b;}
+.neuromancer-clr-2 {color: #faed53;}
+.neuromancer-clr-3 {color: #3f3250;}
