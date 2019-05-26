@@ -83,7 +83,7 @@ hr {
     position: absolute;
     top: 5px;
     /* padding-left: 192px; */
-    padding-left: 150px;
+    padding-left: 171px;
 }
 
 
@@ -164,3 +164,31 @@ a {
     margin-left: 10px;
 }
 
+
+
+
+
+.site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 2px solid #376bcb;
+    margin-top: 2em;
+    overflow: hidden;
+}
+
+.site .footer .contact {
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 3em;
+    margin-top: 1.5em;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.icon,.footer-h2 {
+  vertical-align: middle;
+  display: inline-block;
+}
