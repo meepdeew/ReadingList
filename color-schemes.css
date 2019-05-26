@@ -371,90 +371,619 @@
     color: white;
 }
 
+
 .cover-call-of-the-wild {
     background: #69bad5;
 }
 .title-call-of-the-wild {
-    color: #4f5c88;
+    /* color: #4f5c88; */
+    color: #022046;
 }
 .author-call-of-the-wild {
     color: #d7dbdc;
 }
 
+
 .cover-never-let-me-go {
-    background: #;
+    background: #fede55;
 }
 .title-never-let-me-go {
-    color: #;
+    color: #7b0100;
 }
 .author-never-let-me-go {
-    color: #;
+    color: #209963;
 }
 
 .cover-attempting-normal {
-    background: #;
+    background: #52b5c8;
 }
 .title-attempting-normal {
-    color: #;
+    color: #000000;
 }
 .author-attempting-normal {
-    color: #;
+    color: #f8e251;
 }
 
-.cover- {
+.cover-essentials-computer-architecture {
+    background: #bebebe;
+}
+.title-essentials-computer-architecture {
+    color: #000000;
+}
+.author-essentials-computer-architecture {
+    color: #035875;
+}
+
+.cover-junkie {
+    background: #9b240c;
+}
+.title-junkie {
+    color: #fbaf1d;
+}
+.author-junkie {
+    color: #000000;
+}
+
+.cover-sixth-extinction {
+    background: #f8c60f;
+}
+.title-sixth-extinction {
+    /* color: #193893; */
+    color: #1f2e89;
+}
+.author-sixth-extinction {
+    color: #c40b19;
+}
+
+.cover-art-invisibility {
+    background: #252522;
+}
+.title-art-invisibility {
+    color: #6db233;
+}
+.author-art-invisibility {
+    color: #ffffff;
+}
+
+.cover-it {
+    background: #fcfcfc;
+}
+.title-it {
+    color: #231b33;
+}
+.author-it {
+    color: #a51c24;
+}
+
+
+.cover-persistence-of-vision {
+    /* background: #C686A1; */
+    background: #946E90;
+    /* background: #57435B; */
+}
+.title-persistence-of-vision {
+    color: #F4F2EC;
+}
+.author-persistence-of-vision {
+    color: #E5D23F;
+}
+
+
+.cover-remains-of-the-day {
+    /* background: #73cff6; */
+    background: #01afec;
+}
+.title-remains-of-the-day {
+    /* color: #01afec; */
+    color: #fcbf19;
+}
+.author-remains-of-the-day {
+    color: #ffffff;
+}
+
+
+.cover-righteous-mind {
+    background: #ffffff;
+}
+.title-righteous-mind {
+    color: #95693c;
+}
+.author-righteous-mind {
+    color: #95693c;
+}
+
+
+.cover-norwegian-wood {
+    background: #795a93;
+}
+.title-norwegian-wood {
+    color: #dfd8a2;
+}
+.author-norwegian-wood {
+    color: #ede14f;
+}
+
+
+.cover-brothers-karamazov {
+    /* background: #a69898; */
+    background: #fffaea;
+}
+.title-brothers-karamazov {
+    /* color: #3e2d3d; */
+    color: #bf3d2f;
+}
+.author-brothers-karamazov {
+    /* color: #151017; */
+    color: #e15c21;
+}
+
+
+.cover-american-gods {
+    /* background: #686868; */
+    /* background: #7e7e7e; */
+    background: #363636;
+}
+.title-american-gods {
+    color: #f15c24;
+    /* color: #d8561c; */
+}
+.author-american-gods {
+    color: #fafafa;
+}
+
+
+.cover-homo-deus {
+    background: #393536;
+}
+.title-homo-deus {
+    color: #f04444;
+}
+.author-homo-deus {
+    /* color: #e7ffff; */
+    color: #b8f6ff;
+}
+
+
+.cover-norse-mythology {
+    background: #f5f5f5;
+}
+.title-norse-mythology {
+    color: #ce7e1f;
+}
+.author-norse-mythology {
+    color: #000000;
+}
+
+.cover-neuromancer {
+    background: #f05b7b;
+}
+.title-neuromancer {
+    color: #faed53;
+}
+.author-neuromancer {
+    color: #3f3250;
+}
+/* .neuromancer-bg-1 {background: #f05b7b;} */
+/* .neuromancer-bg-2 {background: #faed53;} */
+/* .neuromancer-bg-3 {background: #3f3250;} */
+/* .neuromancer-clr-1 {color: #f05b7b;} */
+/* .neuromancer-clr-2 {color: #faed53;} */
+/* .neuromancer-clr-3 {color: #3f3250;} */
+
+
+
+.cover-hate-the-oil {
+    background: #072140;
+}
+.title-hate-the-oil {
+    color: #ed5e22;
+}
+.author-hate-the-oil {
+    color: #ceb222;
+}
+
+
+.cover-discrete-math {
+    background: #d9cdb3;
+}
+.title-discrete-math {
+    /* color: #363861; */
+    color: #3a3d84;
+    
+}
+.author-discrete-math {
+    color: #b07239;
+}
+
+
+.cover-soul-of-a-new-machine {
+    background: #b7047a;
+}
+.title-soul-of-a-new-machine {
+    color: #fcfefa;
+}
+.author-soul-of-a-new-machine {
+    /* color: #db3827; */
+    /* color: #7e4057; */
+    color: #32286b;
+}
+
+
+.cover-great-unknown {
+    background: #fcfdeb;
+}
+.title-great-unknown {
+    color: #000000;
+}
+.author-great-unknown {
+    color: #000000;
+}
+
+
+.cover-1984 {
+    /* background: #ee3a2d; */
+    background: #ee482f;
+}
+.title-1984 {
+    color: #231f20;
+    /* color: #333030; */
+}
+.author-1984 {
+    color: #ffffff;
+}
+
+
+.cover-engulfed-in-flames {
+    /* background: #201416; */
+    /* background: #211517; */
+    background: #5b3f18;
+}
+.title-engulfed-in-flames {
+    /* color: #8e703e; */
+    color: #fffca6;
+}
+.author-engulfed-in-flames {
+    color: #fffdfd;
+}
+
+
+.cover-seven-kingdoms {
+    background: #e6c655;
+}
+.title-seven-kingdoms {
+    color: #270503;
+}
+.author-seven-kingdoms {
+    color: #922528;
+}
+
+
+.cover-c-lang {
+    background: #ffffff;
+}
+.title-c-lang {
+    color: #000000;
+}
+.author-c-lang {
+    color: #6189eb;
+}
+
+
+.cover-soul-of-an-octopus {
+    background: #f3f2d4;
+}
+.title-soul-of-an-octopus {
+    color: #f85220;
+}
+.author-soul-of-an-octopus {
+    color: #7aa7be;
+}
+
+
+.cover-farewell-to-arms {
+    background: #545454;
+}
+.title-farewell-to-arms {
+    color: #8a9a41;
+}
+.author-farewell-to-arms {
+    color: #92b0a4;
+}
+
+
+.cover-consider-lobster {
+    background: #ffffff;
+}
+.title-consider-lobster {
+    color: #211d1e;
+}
+.author-consider-lobster {
+    color: #8c1d14;
+}
+
+
+.cover-born-a-crime {
+    background: #3471b4;
+}
+.title-born-a-crime {
+    color: #e3e4de;
+}
+.author-born-a-crime {
+    color: #f2d309;
+}
+
+
+.cover-hillbilly-elegy {
+    background: #9DACB2;
+}
+.title-hillbilly-elegy {
+    color: #32352D;
+}
+.author-hillbilly-elegy {
+    color: #6A5745;
+}
+
+
+.cover-sundown-towns {
+    background: #000000;
+}
+.title-sundown-towns {
+    color: #ffee0e;
+}
+.author-sundown-towns {
+    color: #f3e4bb;
+}
+
+
+/* end 2017 */
+/* start 2016 */
+
+
+.cover-postcapitalism {
     background: #;
 }
-.title- {
+.title-postcapitalism {
     color: #;
 }
-.author- {
+.author-postcapitalism {
     color: #;
 }
 
-.cover- {
+
+.cover-infinite-jest {
     background: #;
 }
-.title- {
+.title-infinite-jest {
     color: #;
 }
-.author- {
+.author-infinite-jest {
     color: #;
 }
 
-.cover- {
+
+.cover-sup-fun-thing {
     background: #;
 }
-.title- {
+.title-sup-fun-thing {
     color: #;
 }
-.author- {
+.author-sup-fun-thing {
     color: #;
 }
 
-.cover- {
+
+.cover-bury-my-heart {
     background: #;
 }
-.title- {
+.title-bury-my-heart {
     color: #;
 }
-.author- {
+.author-bury-my-heart {
     color: #;
 }
 
-.cover- {
+
+.cover-code-hidden-lang {
     background: #;
 }
-.title- {
+.title-code-hidden-lang {
     color: #;
 }
-.author- {
+.author-code-hidden-lang {
     color: #;
 }
 
 
-.neuromancer-bg-1 {background: #f05b7b;}
-.neuromancer-bg-2 {background: #faed53;}
-.neuromancer-bg-3 {background: #3f3250;}
-.neuromancer-clr-1 {color: #f05b7b;}
-.neuromancer-clr-2 {color: #faed53;}
-.neuromancer-clr-3 {color: #3f3250;}
+.cover-the-alchemist {
+    background: #;
+}
+.title-the-alchemist {
+    color: #;
+}
+.author-the-alchemist {
+    color: #;
+}
+
+
+.cover-short-history-everything {
+    background: #;
+}
+.title-short-history-everything {
+    color: #;
+}
+.author-short-history-everything {
+    color: #;
+}
+
+
+.cover-ego-enemy {
+    background: #;
+}
+.title-ego-enemy {
+    color: #;
+}
+.author-ego-enemy {
+    color: #;
+}
+
+.cover-meditations {
+    background: #;
+}
+.title-meditations {
+    color: #;
+}
+.author-meditations {
+    color: #;
+}
+
+.cover-murder-bayou {
+    background: #;
+}
+.title-murder-bayou {
+    color: #;
+}
+.author-murder-bayou {
+    color: #;
+}
+
+.cover-crime-and-punishment {
+    background: #;
+}
+.title-crime-and-punishment {
+    color: #;
+}
+.author-crime-and-punishment {
+    color: #;
+}
+
+.cover-cats-cradle {
+    background: #;
+}
+.title-cats-cradle {
+    color: #;
+}
+.author-cats-cradle {
+    color: #;
+}
+
+.cover-banner-of-heaven {
+    background: #;
+}
+.title-banner-of-heaven {
+    color: #;
+}
+.author-banner-of-heaven {
+    color: #;
+}
+
+.cover-girl-on-the-train {
+    background: #;
+}
+.title-girl-on-the-train {
+    color: #;
+}
+.author-girl-on-the-train {
+    color: #;
+}
+
+.cover-you-cant-win {
+    background: #;
+}
+.title-you-cant-win {
+    color: #;
+}
+.author-you-cant-win {
+    color: #;
+}
+
+.cover-but-how-know {
+    background: #;
+}
+.title-but-how-know {
+    color: #;
+}
+.author-but-how-know {
+    color: #;
+}
+
+.cover-sapiens {
+    background: #;
+}
+.title-sapiens {
+    color: #;
+}
+.author-sapiens {
+    color: #;
+}
+
+.cover-season-of-the-witch {
+    background: #;
+}
+.title-season-of-the-witch {
+    color: #;
+}
+.author-season-of-the-witch {
+    color: #;
+}
+
+.cover-slaughterhouse-five {
+    background: #;
+}
+.title-slaughterhouse-five {
+    color: #;
+}
+.author-slaughterhouse-five {
+    color: #;
+}
+
+.cover-creativity-inc {
+    background: #;
+}
+.title-creativity-inc {
+    color: #;
+}
+.author-creativity-inc {
+    color: #;
+}
+
+.cover-monte-cristo {
+    background: #;
+}
+.title-monte-cristo {
+    color: #;
+}
+.author-monte-cristo {
+    color: #;
+}
+
+.cover-confederacy-of-dunces {
+    background: #;
+}
+.title-confederacy-of-dunces {
+    color: #;
+}
+.author-confederacy-of-dunces {
+    color: #;
+}
+
+.cover-atlas-shrugged {
+    background: #;
+}
+.title-atlas-shrugged {
+    color: #;
+}
+.author-atlas-shrugged {
+    color: #;
+}
+
+.cover-elon-musk {
+    background: #;
+}
+.title-elon-musk {
+    color: #;
+}
+.author-elon-musk {
+    color: #;
+}
+
+
