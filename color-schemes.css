@@ -1,16 +1,25 @@
 
-
-.cover-blood-sweat-and-pixels { background: #3882b2; }
-.title-blood-sweat-and-pixels { color: #e9c747; }
+.cover-blood-sweat-and-pixels {
+    background: #3882b2;
+}
+.title-blood-sweat-and-pixels {
+    color: #e9c747;
+}
 .author-blood-sweat-and-pixels {
     color: #941B0C;
     /* color: #650D1B; */
 }
 
 
-.cover-tribe { background: #54566a; }
-.title-tribe { color: #d2d84f; }
-.author-tribe { color: white; }
+.cover-tribe {
+    background: #54566a;
+}
+.title-tribe {
+    color: #d2d84f;
+}
+.author-tribe {
+    color: white;
+}
 
 
 .cover-brain-on-fire {
@@ -72,7 +81,8 @@
 }
 
 .cover-ham-on-rye {
-    background: #020c35;
+    /* background: #020c35; */
+    background: #0e1f6b;
 }
 .title-ham-on-rye {
     color: #bc3137;
@@ -739,251 +749,275 @@
 /* start 2016 */
 
 
-.cover-postcapitalism {
-    background: #;
-}
-.title-postcapitalism {
-    color: #;
-}
-.author-postcapitalism {
-    color: #;
-}
 
+.cover-the-alchemist {
+    background: #fb592a;
+}
+.title-the-alchemist {
+    color: black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #bc281e;
+}
+.author-the-alchemist {
+    color: #fbc038;
+}
 
 .cover-infinite-jest {
-    background: #;
+    background: #4c86c5;
 }
 .title-infinite-jest {
-    color: #;
+    color: #d5e14d;
 }
 .author-infinite-jest {
-    color: #;
+    color: #ffffff;
 }
 
 
 .cover-sup-fun-thing {
-    background: #;
+    background: #fff22c;
 }
 .title-sup-fun-thing {
-    color: #;
+    color: #fe3f23;
 }
 .author-sup-fun-thing {
-    color: #;
+    /* color: #aedd87; */
+    /* color: #76dbc9; */
+    color: #58b8a7;
 }
 
 
 .cover-bury-my-heart {
-    background: #;
+    background: #c75b2c;
 }
 .title-bury-my-heart {
-    color: #;
+    color: #493f35;
 }
 .author-bury-my-heart {
-    color: #;
+    /* color: #788b89; */
+    /* color: #0d4546; */
+    color: #7bc5c6;
 }
 
 
 .cover-code-hidden-lang {
-    background: #;
+    background: #fefefe;
 }
 .title-code-hidden-lang {
-    color: #;
+    color: #a9a730;
 }
 .author-code-hidden-lang {
-    color: #;
+    color: #58577f;
 }
 
 
-.cover-the-alchemist {
-    background: #;
+.cover-postcapitalism {
+    background: #7fc562;
 }
-.title-the-alchemist {
-    color: #;
+.title-postcapitalism {
+    
+    /* color: #feed01; */
+    color: #047932;
+    /* color: #fff; */
+    /* color: #bcb434; */
+    /* -webkit-text-stroke-width: 0.5px; */
+    /* -webkit-text-stroke-color: #000000; */
 }
-.author-the-alchemist {
-    color: #;
+.author-postcapitalism {
+    color: #000000;
 }
 
 
 .cover-short-history-everything {
-    background: #;
+    /* background: #00007c; */
+    background: #1414b1;
 }
 .title-short-history-everything {
-    color: #;
+    color: #f7f6e1;
 }
 .author-short-history-everything {
-    color: #;
+    color: #f7f6e1;
 }
 
 
 .cover-ego-enemy {
-    background: #;
+    background: #034869;
 }
 .title-ego-enemy {
-    color: #;
+    color: #ffffff;
 }
 .author-ego-enemy {
-    color: #;
+    color: #ffffff;
 }
 
 .cover-meditations {
-    background: #;
+    background: #e7e0c3;
 }
 .title-meditations {
-    color: #;
+    color: #3b372c;
 }
 .author-meditations {
-    color: #;
+    color: #000000;
 }
 
 .cover-murder-bayou {
-    background: #;
+    background: #0292b4;
 }
 .title-murder-bayou {
-    color: #;
+    color: #fef015;
 }
 .author-murder-bayou {
-    color: #;
+    color: #fff;
 }
 
 .cover-crime-and-punishment {
-    background: #;
+    background: #fdf8db;
 }
 .title-crime-and-punishment {
-    color: #;
+    color: #d2222c;
 }
 .author-crime-and-punishment {
-    color: #;
+    color: #231f20;
 }
 
 .cover-cats-cradle {
-    background: #;
+    background: #006498;
 }
 .title-cats-cradle {
-    color: #;
+    color: #dcffff;
 }
 .author-cats-cradle {
-    color: #;
+    color: #000e2a;
 }
 
 .cover-banner-of-heaven {
-    background: #;
+    background: #fff;
 }
 .title-banner-of-heaven {
-    color: #;
+    /* color: #97edfe; */
+    color: #1549c3;
+    /* -webkit-text-stroke-width: 0.5px; */
+    /* -webkit-text-stroke-color: #1549c3; */
 }
 .author-banner-of-heaven {
-    color: #;
+    /* color: #1549c3; */
+    color: #6c6b71;
 }
 
 .cover-girl-on-the-train {
-    background: #;
+    background: #80c9d8;
 }
 .title-girl-on-the-train {
-    color: #;
+    color: #075d38;
 }
 .author-girl-on-the-train {
-    color: #;
+    color: #7c5939;
 }
 
 .cover-you-cant-win {
-    background: #;
+    background: #ecad22;
 }
 .title-you-cant-win {
-    color: #;
+    color: #030303;
 }
 .author-you-cant-win {
-    color: #;
+    color: #a82b19;
 }
 
 .cover-but-how-know {
-    background: #;
+    background: #80bafa;
 }
 .title-but-how-know {
-    color: #;
+    color: #000;
 }
 .author-but-how-know {
-    color: #;
+    color: #fff;
 }
 
 .cover-sapiens {
-    background: #;
+    background: #f8f5ee;
 }
 .title-sapiens {
-    color: #;
+    color: #db221f;
 }
 .author-sapiens {
-    color: #;
+    color: #5f4840;
 }
 
 .cover-season-of-the-witch {
-    background: #;
+    background: #bf8f23;
 }
 .title-season-of-the-witch {
-    color: #;
+    color: #fff;
 }
 .author-season-of-the-witch {
-    color: #;
+    color: #000;
 }
 
 .cover-slaughterhouse-five {
-    background: #;
+    background: #fb0206;
 }
 .title-slaughterhouse-five {
-    color: #;
+    color: #f6fc1c;
 }
 .author-slaughterhouse-five {
-    color: #;
+    /* color: #0009f6; */
+    color: #1207dd;
 }
 
 .cover-creativity-inc {
-    background: #;
+    background: #b3202a;
 }
 .title-creativity-inc {
-    color: #;
+    color: #fff;
 }
 .author-creativity-inc {
-    color: #;
+    color: #000;
 }
 
 .cover-monte-cristo {
-    background: #;
+    background: #343341;
 }
 .title-monte-cristo {
-    color: #;
+    color: #e16d48;
 }
 .author-monte-cristo {
-    color: #;
+    color: #fff;
 }
 
 .cover-confederacy-of-dunces {
-    background: #;
+    background: #f8cd4a;
 }
 .title-confederacy-of-dunces {
-    color: #;
+    color: #384a72;
 }
 .author-confederacy-of-dunces {
-    color: #;
+    /* color: #bddae2; */
+    /* color: #518c52; */
+    /* color: #2f7f4c; */
+    color: #db413f;
 }
 
 .cover-atlas-shrugged {
-    background: #;
+    background: #454545;
 }
 .title-atlas-shrugged {
-    color: #;
+    /* color: #d9334b; */
+    color: #00b7df;
 }
 .author-atlas-shrugged {
-    color: #;
+    /* color: #d3460e; */
+    /* color: #eb1922; */
+    color: #e36d3f;
 }
 
 .cover-elon-musk {
-    background: #;
+    background: #656160;
 }
 .title-elon-musk {
-    color: #;
+    color: #fff;
 }
 .author-elon-musk {
-    color: #;
+    color: #0a51a1;
 }
 
 
