@@ -9,10 +9,8 @@ html, body {
 }
 
 body {
-    /* background: #ffffd7; */
-    background: white;
+    background: #ffffff;
     font: 13.34px helvetica, arial, clean, sans-serif;
-    *font-size: small;
     text-align: center;
 }
 
@@ -23,21 +21,23 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     margin-top: 1em;
     margin-bottom: 1em;
+    font-family: Georgia;
+    font-size: 1.2em;
 }
 
 p {
     margin: 1em 0;
 }
 
-a { color: #00a; }
-/* a:hover { color: black; } */
-/* a:visited {} */
+a {
+    font-weight: bold;
+    margin-left: 10px;
+}
 
-/* a */
-/* a:visited { ... } */
-/* a:focus { ... } */
-/* a:hover { ... } */
-/* a:active { ... } */
+.title {
+    font-size: 1.65em;
+    text-align: center;
+}
 
 .site {
     font-size: 110%;
@@ -82,22 +82,15 @@ hr {
 .banner-img {
     position: absolute;
     top: 5px;
-    /* padding-left: 192px; */
-    padding-left: 180px;
+    padding-left: 192px;
 }
-
 
 span {
     color: #db444a;
-    /* color: #aaa; */
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
     margin-left: 10px;
-    /* float: right; */
-    /* margin-right: 10px; */
 }
-
-
 
 .stack-of-books {
     position: relative;
@@ -111,11 +104,6 @@ span {
     height: 59.8px;
     width: 625px;
 }
-
-
-/*
- Full-sized block
-*/
 
 .level-row-perspective {
     height: 59.8px;
@@ -138,16 +126,15 @@ span {
 }
 
 .pages {
-    background: white;
+    background: #ffffff;
     width: 28.8px;
     height: 27px;
     margin-left: 585.47px;
     transform: skew(0deg, -45.00deg) translate(0px, -44.4px);
-    /* border: 1px solid; */
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-right: 1px solid white;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #ffffff;
 }  
 
 .inner-pages {
@@ -155,22 +142,13 @@ span {
     background: #ffffd7;
     width: 26.8px;
     height: 27px;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
 }
-
-a {
-    font-weight: bold;
-    margin-left: 10px;
-}
-
-
-
-
 
 .site .footer {
     font-size: 80%;
-    color: #666;
+    color: #666666;
     border-top: 2px solid #376bcb;
     margin-top: 2em;
     overflow: hidden;
