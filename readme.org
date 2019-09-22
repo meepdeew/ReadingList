@@ -1,0 +1,11 @@
+Generate your own:
+
+#+BEGIN_SRC racket
+(main '((2019 '('("Title Here" "Author Here" "Cover Url Here")
+                ("Title Here" "Author Here" "Cover Url Here")
+                 ...))
+        (2018 '(() 
+                () 
+                ...)))
+        ...)
+#+END_SRC
