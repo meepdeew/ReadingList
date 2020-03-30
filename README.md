@@ -9,7 +9,7 @@ Generate a static site for your own reading list:
         ...)
 ```
 
-Inspired, at least in part, by the book stacks from The Paris Review (left):
+Inspired, at least in part, by a stack of books from [The Paris Review](https://www.theparisreview.org/) (left):
 
 ![Side by Side](./res/side_by_side.png)
 
