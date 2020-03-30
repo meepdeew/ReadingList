@@ -88,19 +88,18 @@
 (define (apply-year->html annual-list)
   (year->html annual-list))
 
-(define (main input-file output-file [delete-existing-p #false])
-  (when delete-existing-p
+(define (main reading-list [output-file "index.html"] [delete-existing-p #true])
+  (when (and delete-existing-p (file-exists? output-file))
       (delete-file output-file))
   (let* ([out (open-output-file output-file)]
-         [reading-list (file->list input-file)]
          [static-page (generate-html reading-list)])
     ;; html formatter?
     (display static-page out)))
 
 ;; evaluate buffer from here rather than eshell
-(main "./data-input-short.rkt" "index.html" true)
 
-
+(let ([reading-list (file->list "./data-input-short.rkt")])
+  (main reading-list))
 
 
 
