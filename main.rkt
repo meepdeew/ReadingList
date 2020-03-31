@@ -11,7 +11,6 @@
      "    <link rel=\"shortcut icon\" href='./res/favicon.ico' type='image/png'>\n"
      "    <link rel='stylesheet' href='./styles/styles.css' type='text/css'>\n"
      "    <link rel='stylesheet' href='./styles/book-n.css' type='text/css'>\n"
-     "    <link rel='stylesheet' href='./styles/num-books-n.css' type='text/css'>\n"
      "    <link rel='stylesheet' href='./styles/offset-left-n.css' type='text/css'>\n"
      "    <meta charset='utf-8'>\n"
      "  </head>\n"
@@ -70,16 +69,20 @@
 (define (apply-book->html book)
   (apply book->html book))
 
+(define (num-books-calc n)
+  (+ 30.8 (* 29 n)))
+
 (define (year->html annual-list)
   (let* ([year (number->string (car annual-list))]
          [books (cdr annual-list)]
          [quantity (number->string (length books))]
+         [height (number->string (num-books-calc (length books)))]
          [list-of-content (map apply-book->html books)]
          [content (apply string-append list-of-content)])
     (string-append
      "      <!-- start " year " -->\n\n"
      "      <h1>" year " (" quantity ")</h1>\n"
-     "      <div class='stack-of-books num-books-" quantity "'>\n\n"
+     "      <div class='stack-of-books' style='height:" height "px;'>\n\n"
      content
      "      </div>\n"
      "      <!-- end " year " -->\n")))

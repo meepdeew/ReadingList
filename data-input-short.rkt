@@ -1,3 +1,5 @@
+;; (year (book-n title author background title-color author-color width) ...)
+
 (2019 (7 "Blood, Sweat, and Pixels"
          "Jason Schreier"
          "#3882b2" "#e9c747" "#941B0C" 500)
