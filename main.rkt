@@ -9,7 +9,7 @@
      "  <head>\n"
      "    <title>loosetypes</title>\n"
      "    <link rel=\"shortcut icon\" href='./res/favicon.ico' type='image/png'>\n"
-     "    <link rel='stylesheet' href='./styles/styles.css' type='text/css'>\n"
+     "    <link rel='stylesheet' href='./styles.css' type='text/css'>\n"
      "    <meta charset='utf-8'>\n"
      "  </head>\n"
      "  <body>\n\n"
@@ -110,7 +110,7 @@
 
 ;; evaluate buffer from here rather than eshell
 
-(let ([reading-list (file->list "./data-input-short.rkt")])
+(let ([reading-list (file->list "./data-input.rkt")])
   (main reading-list))
 
 
