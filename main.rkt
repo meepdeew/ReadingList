@@ -11,7 +11,6 @@
      "    <link rel=\"shortcut icon\" href='./res/favicon.ico' type='image/png'>\n"
      "    <link rel='stylesheet' href='./styles/styles.css' type='text/css'>\n"
      "    <link rel='stylesheet' href='./styles/book-n.css' type='text/css'>\n"
-     "    <link rel='stylesheet' href='./styles/offset-left-n.css' type='text/css'>\n"
      "    <meta charset='utf-8'>\n"
      "  </head>\n"
      "  <body>\n\n"
@@ -46,25 +45,31 @@
      "</html>\n"
      )))
 
+(define (fmt-bg-and-width background width)
+  (let ([how-long (number->string width)])
+    (string-append "style='"
+                   "background: " background "; "
+                   "width: " how-long ";'")))
 
-;; could do inline styling instead of classnames.
-;; title,author,cover- all map 1:1 to a css property.
 (define (book->html book-number title author background title-color author-color width)
   (let* ([position (number->string book-number)]
-         [how-long (number->string width)])
+         [bg-width-styling (fmt-bg-and-width background width)]
+         [margin (number->string (+ 2 width))])
     (string-append
      "        <div class='books book-" position "'>\n"
      "          <div class='level-row-perspective'>\n"
-     "            <div class='above length-left-" how-long "' style='background:" background ";'></div>\n"
-     "            <div class='spine length-left-" how-long "' style='background:" background ";'>\n"
+     "            <div class='above' " bg-width-styling " ></div>\n"
+     "            <div class='spine' " bg-width-styling ">\n"
      "              <a style='color:" title-color ";' href='#'>" title "</a>\n"
      "              <span style='color:" author-color ";'>" author "</span>\n"
      "            </div>\n"
-     "            <div class='pages margin-left-" how-long "'>\n"
+     "            <div class='pages' style='margin-left:" margin "px;'>\n"
      "              <div class='inner-pages'></div>\n"
      "            </div>\n"
      "          </div>\n"
      "        </div>\n\n")))
+
+
 
 (define (apply-book->html book)
   (apply book->html book))
