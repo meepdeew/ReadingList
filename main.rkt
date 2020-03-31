@@ -10,7 +10,6 @@
      "    <title>loosetypes</title>\n"
      "    <link rel=\"shortcut icon\" href='./res/favicon.ico' type='image/png'>\n"
      "    <link rel='stylesheet' href='./styles/styles.css' type='text/css'>\n"
-     "    <link rel='stylesheet' href='./styles/book-n.css' type='text/css'>\n"
      "    <meta charset='utf-8'>\n"
      "  </head>\n"
      "  <body>\n\n"
@@ -51,12 +50,18 @@
                    "background: " background "; "
                    "width: " how-long ";'")))
 
+(define (fmt-top-and-z-index n)
+  (let ([multiSpineOffset (number->string (* 29 (- n 1)))])
+    (string-append "style='"
+                   "top: calc(100% - " multiSpineOffset "px - 59.8px); "
+                   "z-index: " (number->string n)  ";'")))
+
 (define (book->html book-number title author background title-color author-color width)
-  (let* ([position (number->string book-number)]
+  (let* ([top-z-index-styling (fmt-top-and-z-index book-number)]
          [bg-width-styling (fmt-bg-and-width background width)]
          [margin (number->string (+ 2 width))])
     (string-append
-     "        <div class='books book-" position "'>\n"
+     "        <div class='books' " top-z-index-styling ">\n"
      "          <div class='level-row-perspective'>\n"
      "            <div class='above' " bg-width-styling " ></div>\n"
      "            <div class='spine' " bg-width-styling ">\n"
