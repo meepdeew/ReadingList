@@ -1,55 +1,71 @@
+#; (unfinished ("The Boys in the Boat" "Daniel James Brown")
+               ("Dune" "Frank Herbert")
+               ("Don Quixote" "Miguel de Cervantes")
+               ("We Are Legion (We Are Bob)" "Dennis E. Taylor")
+               ("Digital Fortress" "Dan Brown"))
+
 ;; (year (book-n title author background title-color author-color width) ...)
 
-(2020 (5 "Bad Blood" "John Carreyrou"
-         "" "" "" 500)
+(2020 (7 "The Quest for Cosmic Justice" "Thomas Sewell"
+         "#e8df6a" "#28047e" "black" 500)
+
+      (6 "Mythos" "Stephen Fry"
+         "#3cc7c2" "#c85b30" "white" 500)
+
+      (5 "Bad Blood" "John Carreyrou"
+         "black" "#ee1b22" "white" 500)
+
       (4 "Fortune's Formula" "William Poundstone"
-         "" "" "" 500)
+         "#35ac24" "white" "white" 500)
+
       (3 "Understanding Power" "Noam Chomsky"
-         "" "" "" 500)
+         "#59465c" "white" "#de9a6d" 500)
+
       (2 "Strong Towns" "Charles L. Marohn Jr."
-         "" "" "" 500)
+         "#f5feff" "#284857" "#326f7a" 500)
+
       (1 "1491" "Charles C. Mann"
-         "" "" "" 500))
+         "#ddb63f" "black" "#2d1300" 500))
 
 (2019 (17 "In Calabria"
           "Peter S. Beagle"
-          "" "" "" 530)
+          "#114035" "#cf9829" "white" 530)
       
       (16 "The Master and Margarita"
           "Mikhail Bulgakov"
-          "" "" "" 520)
+          "#f7f0e0" "black" "#cd2429" 520)
 
       (15 "Brave New World"
           "Aldous Huxley"
-          "" "" "" 500)
+          "#60cdf6" "white" "#011b34" 500)
 
       (14 "Elbow Room"
           "Daniel C. Dennett"
-          "" "" "" 520)
+          "#7e7e80" "white" "black" 520)
 
       (13 "The Dictator's Handbook"
           "Bruce Bueno de Mesquita, Alastair Smith"
-          "" "" "" 520)
+          "#c07d2e" "#e2e7d1" "#010101" 520)
 
       (12 "Exhalation: Stories"
           "Ted Chiang"
-          "" "" "" 530)
+          "black" "#aecddf" "#aecddf" 530)
 
       (11 "One Day in the Life of Ivan Denisovich"
           "Aleksandr Solzhenitsyn"
-          "" "" "" 520)
+          "#d0c186" "#060400" "#cc1b15" 520)
 
       (10 "All the Lights We Cannot See"
           "Anthony Doerr"
-          "" "" "" 510)
+          "#6db7aa" "#0c3c64" "white" 510)
 
       (9 "I Am a Strange Loop"
          "Douglas R. Hofstadter"
-         "" "" "" 480)
+         "#d0e8c8" "#ca2581" "#00141f" 480)
 
       (8 "Ballad of the Whiskey Robber"
          "Julian Rubinstein"
-         "" "" "" 520)
+         "#f47a27" "#e0e56d" "#001547" 520)
       
       (7 "Blood, Sweat, and Pixels"
          "Jason Schreier"
