@@ -1,6 +1,57 @@
 ;; (year (book-n title author background title-color author-color width) ...)
 
-(2019 (7 "Blood, Sweat, and Pixels"
+(2020 (5 "Bad Blood" "John Carreyrou"
+         "" "" "" 500)
+      (4 "Fortune's Formula" "William Poundstone"
+         "" "" "" 500)
+      (3 "Understanding Power" "Noam Chomsky"
+         "" "" "" 500)
+      (2 "Strong Towns" "Charles L. Marohn Jr."
+         "" "" "" 500)
+      (1 "1491" "Charles C. Mann"
+         "" "" "" 500))
+
+(2019 (17 "In Calabria"
+          "Peter S. Beagle"
+          "" "" "" 530)
+      
+      (16 "The Master and Margarita"
+          "Mikhail Bulgakov"
+          "" "" "" 520)
+
+      (15 "Brave New World"
+          "Aldous Huxley"
+          "" "" "" 500)
+
+      (14 "Elbow Room"
+          "Daniel C. Dennett"
+          "" "" "" 520)
+
+      (13 "The Dictator's Handbook"
+          "Bruce Bueno de Mesquita, Alastair Smith"
+          "" "" "" 520)
+
+      (12 "Exhalation: Stories"
+          "Ted Chiang"
+          "" "" "" 530)
+
+      (11 "One Day in the Life of Ivan Denisovich"
+          "Aleksandr Solzhenitsyn"
+          "" "" "" 520)
+
+      (10 "All the Lights We Cannot See"
+          "Anthony Doerr"
+          "" "" "" 510)
+
+      (9 "I Am a Strange Loop"
+         "Douglas R. Hofstadter"
+         "" "" "" 480)
+
+      (8 "Ballad of the Whiskey Robber"
+         "Julian Rubinstein"
+         "" "" "" 520)
+      
+      (7 "Blood, Sweat, and Pixels"
          "Jason Schreier"
          "#3882b2" "#e9c747" "#941B0C" 500)
       

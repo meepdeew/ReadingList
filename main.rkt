@@ -56,6 +56,36 @@
                    "top: calc(100% - " multiSpineOffset "px - 59.8px); "
                    "z-index: " (number->string n)  ";'")))
 
+(define (fmt-prop prop-name prop-value)
+  (if (not (string=? prop-value ""))
+      (string-append " " prop-name "='" prop-value "'")
+      ""))
+
+(define (fmt-class classes)
+  (fmt-prop "class" classes))
+
+(define (fmt-style styles)
+  (fmt-prop "style" styles))
+
+(define (html-element type content classes styles)
+  (string-append
+   "<" type (fmt-class classes) (fmt-style styles) ">"
+   (if (string=? type "div") "\n" "")
+   content
+   "</" type ">"
+   "\n"))
+
+(define (comment message)
+  (string-append "<!-- " message " -->\n"))
+
+(define (h1 [content ""] [classes ""] [styles ""])
+  (html-element "h1" content classes styles))
+
+(define (div [content ""] [classes ""] [styles ""])
+  (html-element "div" content classes styles))
+
+;;;(div big-content "books" (string-append ))
+
 (define (book->html book-number title author background title-color author-color width)
   (let* ([top-z-index-styling (fmt-top-and-z-index book-number)]
          [bg-width-styling (fmt-bg-and-width background width)]
@@ -86,16 +116,18 @@
   (let* ([year (number->string (car annual-list))]
          [books (cdr annual-list)]
          [quantity (number->string (length books))]
+         [h1-content (string-append year " (" quantity ")")]
          [height (number->string (num-books-calc (length books)))]
+         [div-styles (string-append "height: " height "px;")]
          [list-of-content (map apply-book->html books)]
+         [start-comment (string-append "start " year)]
+         [end-comment (string-append "end " year)]
          [content (apply string-append list-of-content)])
     (string-append
-     "      <!-- start " year " -->\n\n"
-     "      <h1>" year " (" quantity ")</h1>\n"
-     "      <div class='stack-of-books' style='height:" height "px;'>\n\n"
-     content
-     "      </div>\n"
-     "      <!-- end " year " -->\n")))
+     "      " (comment start-comment)
+     "      " (h1 h1-content) "\n"
+     "      " (div content "stack-of-books" div-styles) "\n"
+     "      " (comment end-comment))))
 
 (define (apply-year->html annual-list)
   (year->html annual-list))
