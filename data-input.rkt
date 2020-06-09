@@ -1,31 +1,36 @@
-#; (unfinished ("The Boys in the Boat" "Daniel James Brown")
-               ("Dune" "Frank Herbert")
+#; (unfinished ("Dune" "Frank Herbert")
                ("Don Quixote" "Miguel de Cervantes")
                ("We Are Legion (We Are Bob)" "Dennis E. Taylor")
                ("Digital Fortress" "Dan Brown"))
 
 ;; (year (book-n title author background title-color author-color width) ...)
 
-(2020 (7 "The Quest for Cosmic Justice" "Thomas Sewell"
-         "#e8df6a" "#28047e" "black" 500)
+(2020 (9 "Between the World and Me" "Ta-Nehisi Coates"
+         "#f0ede4" "black" "red" 570)
+
+      (8 "The Boys in the Boat" "Daniel James Brown"
+          "#d69b4e" "#ed2829" "#0b95c9" 585)
+
+      (7 "The Quest for Cosmic Justice" "Thomas Sewell"
+         "#e8df6a" "#28047e" "black" 540)
 
       (6 "Mythos" "Stephen Fry"
-         "#3cc7c2" "#c85b30" "white" 500)
+         "#3cc7c2" "#c85b30" "white" 540)
 
       (5 "Bad Blood" "John Carreyrou"
-         "black" "#ee1b22" "white" 500)
+         "black" "#ee1b22" "white" 550)
 
       (4 "Fortune's Formula" "William Poundstone"
-         "#35ac24" "white" "white" 500)
+         "#35ac24" "white" "white" 550)
 
       (3 "Understanding Power" "Noam Chomsky"
-         "#59465c" "white" "#de9a6d" 500)
+         "#59465c" "white" "#de9a6d" 550)
 
       (2 "Strong Towns" "Charles L. Marohn Jr."
-         "#f5feff" "#284857" "#326f7a" 500)
+         "#f5feff" "#284857" "#326f7a" 570)
 
       (1 "1491" "Charles C. Mann"
-         "#ddb63f" "black" "#2d1300" 500))
+         "#ddb63f" "black" "#2d1300" 585))
 
 (2019 (17 "In Calabria"
           "Peter S. Beagle"
@@ -427,6 +432,3 @@
       (1 "Elon Musk"
          "Ashlee Vance"
          "#656160" "#fff" "#0a51a1" 585))
-
-
-
