@@ -1,11 +1,26 @@
-#; (unfinished ("Dune" "Frank Herbert")
+#; (unfinished ("Foundation" "Isaac Asimov")
                ("Don Quixote" "Miguel de Cervantes")
                ("We Are Legion (We Are Bob)" "Dennis E. Taylor")
                ("Digital Fortress" "Dan Brown"))
 
 ;; (year (book-n title author background title-color author-color width) ...)
 
-(2020 (9 "Between the World and Me" "Ta-Nehisi Coates"
+(2020 (14 "Masters of Doom" "David Kushner"
+          "#61AD46" "#FFFF00" "#E51C0C" 560)
+      
+      (13 "Golden Gates" "Conor Dougherty"
+          "#EEEEEE" "#B98764" "black" 570)
+
+      (12 "Dune" "Frank Herbert"
+          "#9E3601" "#F6DCE9" "black" 550)
+
+      (11 "Civilized to Death" "Christopher Ryan"
+          "#FFF7EC" "black" "#D3141B" 540)
+
+      (10 "The Myth of Sisyphus" "Albert Camus"
+          "#BEB87A" "black" "#580C00" 570)
+
+      (9 "Between the World and Me" "Ta-Nehisi Coates"
          "#f0ede4" "black" "red" 570)
 
       (8 "The Boys in the Boat" "Daniel James Brown"
