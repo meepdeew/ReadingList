@@ -5,7 +5,17 @@
 
 ;; (year (book-n title author background title-color author-color width) ...)
 
-(2020 (14 "Masters of Doom" "David Kushner"
+(2020 (17 "The Strange Case of Dr Jekyll and Mr Hyde" "Robert Louis Stevenson"
+          "#306062" "white" "black" 540)
+
+      (16 "The Demon-Haunted World" "Carl Sagan"
+          "#e77e47" "black" "white" 540)
+
+      (15 "1Q84" "Haruki Murakami"
+          "#eb9981" "#c9f8d8" "white" 550)
+      ;;"#3e6f5c"
+      
+      (14 "Masters of Doom" "David Kushner"
           "#61AD46" "#FFFF00" "#E51C0C" 560)
       
       (13 "Golden Gates" "Conor Dougherty"
