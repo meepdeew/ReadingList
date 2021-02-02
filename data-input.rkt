@@ -3,10 +3,30 @@
                ("We Are Legion (We Are Bob)" "Dennis E. Taylor")
                ("Digital Fortress" "Dan Brown"))
 
-;; (year (book-n title author background title-color author-color width) ...)
+#; (year
+    (book-n title author
+            bg title-color author-color width) ...)
 
-(2020 (17 "The Strange Case of Dr Jekyll and Mr Hyde" "Robert Louis Stevenson"
-          "#306062" "white" "black" 540)
+(2021 (2 "The Lean Startup" "Eric Ries"
+         "#3089bd" "white" "#5de0fb" 540)
+
+      (1 "Stranger in a Strange Land" "Robert A. Heinlein"
+         "#ef4129" "#ffcdd0" "black" 560)) ;  "#650708" "#f69992"
+
+(2020 (21 "Treasure Island" "Robert Louis Stevenson"
+          "#328d92" "#ddba1e" "black" 540) ; black
+
+      (20 "American Kingpin" "Nick Bilton"
+          "white" "#ad2120" "black" 540)
+
+      (19 "Frankenstein" "Mary Shelley"
+          "#e2d2a1" "#3f3b32" "#b18345" 540)
+      
+      (18 "Company of One" "Paul Jarvis"
+          "#faeb38" "black" "#6baae0" 550) ; #c5181e
+
+      (17 "The Strange Case of Dr Jekyll and Mr Hyde" "Robert Louis Stevenson"
+           "#2f7573" "white" "black" 540) ;;"#306062" "#285656"
 
       (16 "The Demon-Haunted World" "Carl Sagan"
           "#e77e47" "black" "white" 540)
