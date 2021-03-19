@@ -1,5 +1,4 @@
-#; (unfinished ("Foundation" "Isaac Asimov")
-               ("Don Quixote" "Miguel de Cervantes")
+#; (unfinished ("Don Quixote" "Miguel de Cervantes")
                ("We Are Legion (We Are Bob)" "Dennis E. Taylor")
                ("Digital Fortress" "Dan Brown"))
 
