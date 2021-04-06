@@ -1,4 +1,8 @@
-#; (unfinished ("Don Quixote" "Miguel de Cervantes")
+#; (unfinished ("Private Government" "Elizabeth Anderson")
+               ("Moneyland" "Oliver Bullough")
+               ("Permanent Record" "Edward Snowden")
+               ("Moby Dick" "Herman Melville")
+               ("Don Quixote" "Miguel de Cervantes")
                ("We Are Legion (We Are Bob)" "Dennis E. Taylor")
                ("Digital Fortress" "Dan Brown"))
 
@@ -6,8 +10,19 @@
     (book-n title author
             bg title-color author-color width) ...)
 
-(2021 (7 "Narconomics" "Tom Wainwright"
-      	 "#ffef03" "#bf080c" "black" 540)
+
+
+(2021 (10 "Man's Search for Meaning" "Viktor E. Frankl"
+          "#30b3c7" "#a90017" "#000000" 540)
+      
+      (9 "The Master Switch" "Tim Wu"
+         "#242021" "#ffffff" "#ffd302" 560)
+
+      (8 "The Divide" "Matt Taibbi"
+         "#f7f6e1" "#172c49" "#c99355" 550)
+
+      (7 "Narconomics" "Tom Wainwright"
+      	 "#ffef03" "#bf080c" "black" 550)
 
       (6 "Foundation" "Isaac Asimov"
       	 "#890012" "#ff9d11" "#ff610d" 550)
@@ -16,7 +31,7 @@
       	 "#a3a60f" "#27221e" "#feffff" 560)
 	 
       (4 "Every Tool's a Hammer" "Adam Savage"
-      	 "#f4f1e2" "black" "#f13533" 550)
+      	 "#f4f1e2" "black" "#f13533" 540)
 
       (3 "Side Hustle" "Chris guillebeau"
       	 "#ffe840" "#ef2f24" "#143e5e" 570)
@@ -25,7 +40,8 @@
          "#3089bd" "white" "#5de0fb" 560)
 
       (1 "Stranger in a Strange Land" "Robert A. Heinlein"
-         "#ef4129" "#ffcdd0" "black" 560)) ;  "#650708" "#f69992"
+         "#ef4129" "#ffcdd0" "black" 560))
+;  "#650708" "#f69992"
 
 (2020 (21 "Treasure Island" "Robert Louis Stevenson"
           "#328d92" "#ddba1e" "black" 540) ; black
